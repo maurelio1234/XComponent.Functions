@@ -76,7 +76,7 @@ namespace XComponent.Functions.Core
                         }
                         catch (Exception e)
                         {
-                            Console.WriteLine(e);
+                            System.Diagnostics.Debug.WriteLine(e);
                         }
 
                         lock (_senderWrapperBySender)
